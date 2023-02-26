@@ -1,0 +1,12 @@
+{
+  "name": "web",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "//build": "pnpm build:server && yarn build:client && mkdir -p ../../dist/apps/web && cp ./package.json ../../dist/apps/web/",
+    "//build:server": "npx vite build --config='vite.config.server.ts'",
+    "//build:client": "npx vite build --config='vite.config.client.ts'",
+    "serve": "node ../../dist/apps/web/server.js"
+  }
+}

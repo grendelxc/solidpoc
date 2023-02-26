@@ -1,0 +1,19 @@
+{
+  "eslint.run": "onSave",
+  "eslint.validate": ["mdx", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "search.exclude": {
+    "dist/**": true,
+    "**/node_modules": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.words": [
+    "solidjs",
+    "solidpoc"
+  ]
+}

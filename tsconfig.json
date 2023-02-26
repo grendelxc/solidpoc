@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "lib": [],
+    "rootDir": "./",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@solidpoc/solid-components": ["libs/solid/components/src/index.ts"],
+      "@solidpoc/solid-layouts": ["libs/solid/layouts/src/index.ts"],
+      "@solidpoc/solid-pages": ["libs/solid/pages/src/index.ts"],
+      "@solidpoc/solid-routes": ["libs/solid/routes/src/index.ts"],
+      "@solidpoc/solid-state": ["libs/solid/state/src/index.ts"],
+      "@solidpoc/solid-utils": ["libs/solid/utils/src/index.ts"]
+    }
+  }
+}
